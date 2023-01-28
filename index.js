@@ -1,7 +1,7 @@
-async function getdatafrompython(){
-    document.getElementById('myele').innerText = await eel.getdata()(); 
-}
+// async function nexttt(){
+//     document.getElementById('myele').innerText = await eel.getdata()(); 
+// }
 
 document.getElementById('mybtn').addEventListener('click',() => {
-    getdatafrompython();
+    window.location.href = "index1.html"
 })
